@@ -1,20 +1,36 @@
-<<<<<<< HEAD
-# React + Vite
+# RentHelperNYC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+RentHelperNYC is a React + Vite web application that helps new workers find affordable homes in New York City. The platform provides interactive tools, including a rent dashboard, neighborhood map, income-based calculator, and feedback system.
 
-Currently, two official plugins are available:
+![Dashboard Preview](./src/assets/dashboard.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Interactive Map**: Explore NYC neighborhoods and rent trends.
+- **Dashboard**: Compare areas and view rent statistics.
+- **Income-Based Calculator**: Quickly find out affordable rent based on income.
+- **Feedback & Support**: Share your ideas or issues.
+- **Top ZIP Codes**: Discover the best ZIP codes based on lifestyle and budget.
+- **Authentication**: Sign in with Firebase for personalized experience.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# nycrenthelper
->>>>>>> 4ebc5fc261d57009bdaca9ab987aa37a52dfad15
+## Tech Stack
+
+- **Frontend**: React, Vite, TailwindCSS
+- **Authentication**: Firebase (Google Auth)
+- **Hosting**: Vercel
+- **Icons**: Lucide-React
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/theLocalSolver/nycrenthelper.git
+cd nycrenthelper
+```
