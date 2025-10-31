@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Navbar from "@/components/navbar.jsx";
+import Navbar from "@/components/Navbar.jsx";
 import { Button } from "@/components/ui/button";
 import Card from "@/components/ui/card";
 import DashboardImage from "../assets/dashboard.png";

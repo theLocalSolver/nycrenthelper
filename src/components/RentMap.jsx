@@ -94,7 +94,7 @@ function RentMap({ selectedBoroughs, minRent, maxRent, setTopZipCodes }) {
         attribution: "&copy; OpenStreetMap contributors",
       }).addTo(mapInstance.current);
 
-      fetch("/src/data/merged.geojson")
+      fetch("/data/merged.geojson")
         .then((res) => res.json())
         .then((data) => {
           geoJsonLayerRef.current = L.geoJSON(data, {
